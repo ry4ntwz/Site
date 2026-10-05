@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* FLEXBOX.HTML - PÁGINA PRINCIPAL */
+
+body {
+    background-color: #eef5ff;
+    color: #2c3e50;
+}
+
+h1 {
+    color:darkblue;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+h2 {
+    color: #2b4c7e;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    padding: 30px;
+}
+
+
+/* MENU */
+
+.menu-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    padding: 15px;
+    background-color: #2b4c7e;
+}
+
+.menu-horizontal a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.3rem 0;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease;
+    justify-content:end;
+}
+
+.menu-horizontal a:hover {
+    border-bottom-color: #ffcf4a;
+    color: #ffcf4a;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+
+main {
+    padding: 30px;
+}
+
+.conteudo-container {
+    background-color: #ffffff;
+    border-left: 8px solid #2b4c7c;
+    border-right: 8px solid #2b4c7c;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+
+/* PÁGINA SOBRE */
+
+.pagina-sobre {
+    margin: 0;
+    padding: 0;
+    background-color: #eefaf2;
+    color: #234d35;
+}
+
+.pagina-sobre header {
+    background-color: #287a4b;
+    color: white;
+    padding: 35px;
+    text-align: center;
+}
+
+.pagina-sobre h1 {
+    color: white;
+    font-family: Georgia, serif;
+}
+
+.pagina-sobre .menu-horizontal1 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    padding: 15px;
+    background-color: #2b4c
+}
+
+.sobre-conteudo {
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 15px;
+    border-left: 8px solid #287a4b;
+}
+
+.pagina-sobre h2 {
+    color: #287a4b;
+}
+
+.pagina-sobre p {
+    color: #234d35;
+}
+
+
+/* PÁGINA CONTEÚDOS */
+
+.pagina-conteudos {
+    margin: 0;
+    padding: 0;
+    background-color: #f5efff;
+    color: #43265c;
+}
+
+.pagina-conteudos header {
+    background-color: #7046a3;
+    color: white;
+    padding: 45px;
+    text-align: center;
+}
+
+.pagina-conteudos h1 {
+    color: white;
+    font-family: Georgia, serif;
+}
+
+ .menu-horizontal2 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    padding: 15px;
+    background-color: #2b4c
+}
+
+.conteudos-conteudo {
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.pagina-conteudos h2 {
+    color: #7046a3;
+}
+
+.pagina-conteudos p {
+    color: #43265c;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #eee2fa;
+    border: 2px solid #7046a3;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #7046a3;
+}
+
+
+/* PÁGINA CONTATO */
+
+.pagina-contato {
+    margin: 0;
+    padding: 0;
+    background-color: #fff5e8;
+    color: #633b1c;
+}
+
+.pagina-contato header {
+    background-color: #d87924;
+    color: white;
+    padding: 40px;
+    text-align: right;
+}
+
+.pagina-contato h1 {
+    color: white;
+    font-family: Georgia, serif;
+}
+
+.pagina-contato .menu-horizontal3 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    padding: 15px;
+    background-color: #2b4c
+}
+
+.contato-conteudo {
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 850px;
+    background-color: white;
+    border: 3px dashed #d87924;
+    border-radius: 10px;
+}
+
+.pagina-contato h2 {
+    color: #d87924;
+}
+
+.pagina-contato p {
+    color: #633b1c;
+}
+
+.contato-item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    background-color: #ffe2c0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contato-item h3 {
+    color: #994c13;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.pagina-sobre footer {
+    background-color: #d5efdd;
+    color: #195c37;
+}
+
+.pagina-conteudos footer {
+    background-color: #e8dcf5;
+    color: #7046a3;
+}
+
+.pagina-contato footer {
+    background-color: #ffe2c0;
+    color: #994c13;
+}
